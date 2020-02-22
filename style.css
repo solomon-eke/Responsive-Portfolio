@@ -1,0 +1,87 @@
+html,
+body {
+  height: 100%;
+  background-color: #e7e7e7;
+}
+.myName {
+  background-color: #59aaa5;
+  height: 60px;
+  color: beige;
+  text-align: center;
+}
+.myNameClass {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+header {
+  color: #59aaa5;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: left;
+}
+.content {
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.myNav {
+  background-color: whitesmoke;
+  height: 60px;
+  color: black;
+}
+.img-about {
+  float: left;
+}
+hr {
+  border-width: 3px;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-top: 40px;
+  width: 100%;
+  height: 20px;
+  background-color: #666666;
+  color: white;
+  text-align: center;
+}
+.boxbeforefooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #59aaa5;
+}
+
+.textcolor {
+  color: #a8adbd;
+}
+.submit-button {
+  background-color: #59aaa5;
+}
+p {
+  padding-bottom: 20px;
+}
+
+/* Container holding the image and the text */
+.cont {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 50px;
+  background-color: #59aaa5;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+.imagehide {
+  z-index: -1;
+}
